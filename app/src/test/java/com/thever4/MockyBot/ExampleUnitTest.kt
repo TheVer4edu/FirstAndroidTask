@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.thever4.MockyBot
 
 import org.junit.Test
 

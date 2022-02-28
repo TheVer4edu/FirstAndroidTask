@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.thever4.MockyBot
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

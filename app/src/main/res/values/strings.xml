@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Mocky Bot for Telegram</string>
+    <string name="login_welcome">Welcome!</string>
+    <string name="login_telegram_bot_token">Telegram bot token</string>
+    <string name="login_button_continue">Continue</string>
+    <string name="login_little_underwelcome_motd">Enter your bot\'s token to continue</string>
+    <string name="login_guide_link">Where I should get it?</string>
+    <string name="telegram_bot_father_logo">Telegram Bot Father logo</string>
 </resources>
