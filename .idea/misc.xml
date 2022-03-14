@@ -5,13 +5,21 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1915" />
         <entry key="app/src/main/res/drawable/background_input.xml" value="0.3305" />
+        <entry key="app/src/main/res/drawable/card_shape.xml" value="0.211" />
+        <entry key="app/src/main/res/drawable/divider_drawable.xml" value="0.191" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1915" />
+        <entry key="app/src/main/res/layout-v28/view_holder_balance.xml" value="0.35833333333333334" />
         <entry key="app/src/main/res/layout/activity_confirmation.xml" value="0.35833333333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/view_holder_balance.xml" value="0.45690834473324216" />
+        <entry key="app/src/main/res/layout/view_holder_header.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/view_holder_recycler.xml" value="0.35833333333333334" />
+        <entry key="app/src/main/res/layout/view_holder_tariff.xml" value="0.35833333333333334" />
+        <entry key="app/src/main/res/layout/view_holder_userdata.xml" value="0.5" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

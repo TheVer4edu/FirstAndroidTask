@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="32dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="14dp">
+
+        <ImageView
+            android:id="@+id/vault_picture"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_baseline_monetization_on_24"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="Dollar sign"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/balance_your"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ваш баланс"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/vault_picture"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/account_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ЛС: "
+            app:layout_constraintLeft_toRightOf="@id/vault_picture"
+            app:layout_constraintBottom_toBottomOf="@id/vault_picture" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/account_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123456"
+            app:layout_constraintLeft_toRightOf="@id/account_text"
+            app:layout_constraintBottom_toBottomOf="@id/account_text" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/account_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100.42 P"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/balance_your"
+            app:layout_constraintBottom_toBottomOf="@id/vault_picture"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/account_next_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="К оплате за сентябрь: "
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/vault_picture"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/account_next_month_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="0.00 P"
+            app:layout_constraintLeft_toRightOf="@id/account_next_month"
+            app:layout_constraintBottom_toBottomOf="@id/account_next_month"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/account_refill_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ПОПОЛНИТЬ"
+            android:textColor="#F05C5C"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
