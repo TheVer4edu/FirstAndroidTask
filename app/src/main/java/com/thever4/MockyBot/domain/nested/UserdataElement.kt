@@ -1,4 +1,4 @@
-package com.thever4.MockyBot.adapter.domain.nested
+package com.thever4.MockyBot.domain.nested
 
 import com.thever4.MockyBot.adapter.NestedAdapter
 

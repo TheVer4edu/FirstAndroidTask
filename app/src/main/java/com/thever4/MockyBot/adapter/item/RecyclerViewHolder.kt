@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.thever4.MockyBot.R
 import com.thever4.MockyBot.adapter.DividerItemDecorator
 import com.thever4.MockyBot.adapter.NestedAdapter
-import com.thever4.MockyBot.adapter.domain.nested.NestedElement
+import com.thever4.MockyBot.domain.nested.NestedElement
 import java.lang.ref.WeakReference
 
 class RecyclerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -38,6 +38,8 @@ class RecyclerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         cardRecycler?.post {
             adapter.reload(data)
         }
+        cardRecyclerConstraint?.setBackgroundColor(Color.parseColor(color))
+        cardRecyclerConstraint?.invalidate()
     }
 
     private fun initList() {
@@ -50,8 +52,5 @@ class RecyclerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val dividerItemDecoration =
             DividerItemDecorator(view.get()?.resources!!.getDrawable(R.drawable.divider_drawable))
         cardRecycler?.addItemDecoration(dividerItemDecoration)
-
-        cardRecyclerConstraint?.background?.setColorFilter(Color.parseColor(color), PorterDuff.Mode.DARKEN)
-        cardRecyclerConstraint?.invalidate()
     }
 }

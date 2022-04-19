@@ -4,9 +4,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.thever4.MockyBot.R
-import com.thever4.MockyBot.adapter.domain.nested.NestedElement
-import com.thever4.MockyBot.adapter.domain.nested.TariffElement
-import com.thever4.MockyBot.adapter.domain.nested.UserdataElement
+import com.thever4.MockyBot.domain.nested.NestedElement
+import com.thever4.MockyBot.domain.nested.TariffElement
+import com.thever4.MockyBot.domain.nested.UserdataElement
 import com.thever4.MockyBot.adapter.item.HeaderViewHolder
 import com.thever4.MockyBot.adapter.item.nested.TariffViewHolder
 import com.thever4.MockyBot.adapter.item.nested.UserdataViewHolder

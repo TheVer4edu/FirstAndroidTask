@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.thever4.MockyBot.R
-import com.thever4.MockyBot.adapter.domain.*
+import com.thever4.MockyBot.domain.*
 import com.thever4.MockyBot.adapter.item.BalanceViewHolder
 import com.thever4.MockyBot.adapter.item.HeaderViewHolder
 import com.thever4.MockyBot.adapter.item.RecyclerViewHolder

@@ -1,7 +1,7 @@
-package com.thever4.MockyBot.adapter.domain
+package com.thever4.MockyBot.domain
 
 import com.thever4.MockyBot.adapter.Adapter
-import com.thever4.MockyBot.adapter.domain.nested.NestedElement
+import com.thever4.MockyBot.domain.nested.NestedElement
 
 data class RecyclerElement(
     var nestedList: MutableList<NestedElement>,
